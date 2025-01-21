@@ -13,4 +13,4 @@ This PCB design is tailored for a self-balancing robot. It integrates key compon
 * Sensor Input: MPU6050 for real-time balance adjustments.
 * Microcontroller: Arduino Nano compatibility for seamless programming and control.
 * Power Management: Includes regulators for stable operation.
-![alt text]()
+![alt text](SBR_PCB/SRB_Board_Render.png)
