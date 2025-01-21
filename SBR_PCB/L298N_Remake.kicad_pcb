@@ -590,7 +590,7 @@
 			(uuid "59964974-17f3-4ee8-b14e-cc9f3c262927")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "0fe64c4d-16aa-4db7-b44b-5690ad7bdd16")
 			(effects
@@ -5097,7 +5097,7 @@
 		(descr "Arduino Nano, http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf")
 		(tags "Arduino Nano")
 		(property "Reference" "A1"
-			(at 7.62 -5.08 360)
+			(at 7.62 -5.08 0)
 			(layer "F.SilkS")
 			(uuid "a544cbb3-c9e6-470d-be8b-774befffab72")
 			(effects
@@ -6347,7 +6347,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=1.50mm, , diameter=4mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 1.50mm  diameter 4mm Electrolytic Capacitor")
 		(property "Reference" "C4"
-			(at 0.75 -3.25 360)
+			(at 0.75 -3.25 0)
 			(layer "F.SilkS")
 			(uuid "c12abb50-9eb4-432c-bd42-5c0a96f74e38")
 			(effects
@@ -6358,7 +6358,7 @@
 			)
 		)
 		(property "Value" "10µF"
-			(at 0.75 3.25 360)
+			(at 0.75 3.25 0)
 			(layer "F.Fab")
 			(uuid "9b5089f8-1375-470a-ac32-4ee6240c1ba7")
 			(effects
@@ -7416,7 +7416,7 @@
 			(uuid "575f512a-078b-4654-b6b5-1d8667632f32")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.75 0 360)
+			(at 0.75 0 0)
 			(layer "F.Fab")
 			(uuid "cf596a19-03dd-4ac6-a705-eb2918845ec6")
 			(effects
@@ -11331,7 +11331,7 @@
 		(descr "Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)")
 		(tags "Bulgin BX0036")
 		(property "Reference" "BT1"
-			(at 27.8 18.1 360)
+			(at 27.8 18.1 0)
 			(layer "B.SilkS")
 			(uuid "23e61788-435c-4370-b903-d7e41e149d1d")
 			(effects
@@ -11343,7 +11343,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 27.8 -1 360)
+			(at 27.8 -1 0)
 			(layer "B.Fab")
 			(uuid "3e12c4af-eb58-4391-b3ad-07618a2a0429")
 			(effects
@@ -11521,7 +11521,7 @@
 			(uuid "9e0f6b97-fa25-4782-b1c9-ab08c736d4f7")
 		)
 		(fp_text user "+"
-			(at 3 0.2 360)
+			(at 3 0.2 0)
 			(layer "B.SilkS")
 			(uuid "7cee5c6b-bdde-43fe-893b-1f716c0c70d6")
 			(effects
@@ -11533,7 +11533,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 27.8 1 360)
+			(at 27.8 1 0)
 			(layer "B.Fab")
 			(uuid "50355bda-96b6-4335-a5da-170048352457")
 			(effects
@@ -11593,18 +11593,6 @@
 		)
 	)
 	(gr_rect
-		(start 49 66)
-		(end 69 81)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill none)
-		(layer "F.Cu")
-		(net 29)
-		(uuid "444c3eb5-8345-4b93-ae16-e44d80a5bd34")
-	)
-	(gr_rect
 		(start 49 42.5)
 		(end 249 110)
 		(stroke
@@ -11617,6 +11605,17 @@
 		(uuid "95275aed-c84e-443f-97b8-c145ba2dce76")
 	)
 	(gr_rect
+		(start 49 66)
+		(end 69 81)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "444c3eb5-8345-4b93-ae16-e44d80a5bd34")
+	)
+	(gr_rect
 		(start 228.5 66)
 		(end 249 81)
 		(stroke
@@ -11624,13 +11623,12 @@
 			(type default)
 		)
 		(fill none)
-		(layer "F.Cu")
-		(net 29)
+		(layer "Dwgs.User")
 		(uuid "aa458087-ec7a-47fd-b97a-5e1df6d217a3")
 	)
 	(gr_text "DESIGNED BY:\nAMIN JAHROMI"
 		(at 239 98 270)
-		(layer "F.Cu" knockout)
+		(layer "Dwgs.User" knockout)
 		(uuid "024f421f-4a1a-4297-8c9f-67fad705d7fc")
 		(effects
 			(font
@@ -11643,7 +11641,7 @@
 	)
 	(gr_text "MPU-650 CONFIG"
 		(at 173.5 108 0)
-		(layer "F.Cu" knockout)
+		(layer "Dwgs.User" knockout)
 		(uuid "182286db-3239-4e55-b6f4-9723014acfb8")
 		(effects
 			(font
@@ -11656,7 +11654,7 @@
 	)
 	(gr_text "MOTOR A"
 		(at 239 74.5 0)
-		(layer "F.Cu" knockout)
+		(layer "Dwgs.User" knockout)
 		(uuid "2df44d77-3e58-4e1f-8c33-b1e5cd6a9f27")
 		(effects
 			(font
@@ -11669,7 +11667,7 @@
 	)
 	(gr_text "MOTOR B"
 		(at 58.5 74.5 0)
-		(layer "F.Cu" knockout)
+		(layer "Dwgs.User" knockout)
 		(uuid "a7336057-a841-468e-911b-0a86ceefbb19")
 		(effects
 			(font
@@ -11682,7 +11680,7 @@
 	)
 	(gr_text "L298N CONFIG"
 		(at 68 107 0)
-		(layer "F.Cu" knockout)
+		(layer "Dwgs.User" knockout)
 		(uuid "f94bbbbe-1345-4305-bc5d-4ffee743adb3")
 		(effects
 			(font
